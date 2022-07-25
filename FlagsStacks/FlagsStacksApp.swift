@@ -11,7 +11,7 @@ import SwiftUI
 struct FlagsStacksApp: App {
     var body: some Scene {
         WindowGroup {
-            ContentView()
+            FinlandFlagView()
         }
     }
 }
