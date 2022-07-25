@@ -10,13 +10,13 @@ import SwiftUI
 struct UpperSectionHStack: View {
     var body: some View {
         HStack(spacing: 0) {
-            ForEach(0..<4) {number in
+            ForEach(0..<2) {number in
                 Color.white
             }
-            ForEach(0..<2) {number in
-                Color("FinlandBlue")
-            }
-            ForEach(0..<8) {number in
+            
+            Color("FinlandBlue")
+            
+            ForEach(0..<4) {number in
                 Color.white
             }
         }
